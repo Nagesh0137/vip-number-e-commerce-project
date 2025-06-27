@@ -1,0 +1,18 @@
+{
+  "name": "vip-numbers-ecommerce",
+  "version": "1.0.0",
+  "description": "Premium e-commerce website for VIP mobile numbers",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx live-server --port=3000",
+    "build": "echo 'Building static website...'",
+    "serve": "npx http-server -p 3000"
+  },
+  "keywords": ["vip-numbers", "ecommerce", "mobile", "porting"],
+  "author": "VIP Numbers Team",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "http-server": "^14.1.1"
+  }
+}
